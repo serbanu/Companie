@@ -1,12 +1,8 @@
-
 public class Main {
 
 	/**
 	 * @param args
 	 */
-//	- instantiaza un angajator
-//	- testeaza metodele implementate de acesta
-//	- testeaza metoda angajare() a instantei de obiect Angajator, trimitandu-i ca paramatru un obiect de tip Student
 
 	public static void main(String[] args) {
 		Angajator angajator = new Angajator("Qualitance");
@@ -19,7 +15,5 @@ public class Main {
 		System.out.println(angajator.cautareSalariat("Ionita", "Cristian"));
 		angajator.afisareAngajati();
 		System.out.println(cristianIonita.salariu);
-//		angajator.angajare(new Student("Mardaloescu", "Serban", 1930208, 20, "ACS", 2, 10));
 	}
-
 }
